@@ -5,3 +5,29 @@ GET http://localhost:3000/students
 GET http://localhost:3000/students/2
 
 ### Student Create
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+"first_name": "test",
+"last_name": "test",
+"email": "blank@test.com",
+"phone_number": "1234567"
+}
+
+### Student Update
+PATCH http://localhost:3000/students/
+Content-Type: application/json
+
+### Student Destroy
+DELETE http://localhost:3000/students/
+
+### Education Index
+GET http://localhost:3000/educations
+
+### Experiences Index
+GET http://localhost:3000/experiences
+
+### Skills Index
+GET http://localhost:3000/skills
+

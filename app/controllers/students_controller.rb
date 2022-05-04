@@ -31,7 +31,7 @@ class StudentsController < ApplicationController
     end
   end
 
-  def updated
+  def update
     student_id = params["id"]
     student = Student.find(student_id)
 
