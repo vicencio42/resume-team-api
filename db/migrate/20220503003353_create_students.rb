@@ -8,7 +8,7 @@ class CreateStudents < ActiveRecord::Migration[7.0]
       t.text :short_bio
       t.string :linkedin_url
       t.string :twitter_handle
-      t.string :personal_blig
+      t.string :personal_blog
       t.string :resume
       t.string :github_url
       t.string :photo
