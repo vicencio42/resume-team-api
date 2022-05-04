@@ -31,6 +31,9 @@ GET http://localhost:3000/experiences
 ### Skills Index
 GET http://localhost:3000/skills
 
+### Capstones Index
+GET http://localhost:3000/capstones
+
 
 ### Users create (signup)
 POST http://localhost:3000/users
@@ -53,8 +56,5 @@ Content-Type: application/json
 }
 
 
-
-### Capstones Index
-GET http://localhost:3000/capstones
 
 
