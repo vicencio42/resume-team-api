@@ -56,7 +56,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_03_015829) do
     t.text "short_bio"
     t.string "linkedin_url"
     t.string "twitter_handle"
-    t.string "personal_blog"
+    t.string "personal_blig"
     t.string "resume"
     t.string "github_url"
     t.string "photo"
