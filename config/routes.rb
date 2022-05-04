@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   patch "/students/:id" => "students#update"
   delete "/students/:id" => "students#destroy"
 
+
+  post "/users" => "users#create"
+  post "/sessions" => "sessions#create"
+
+
   get "/educations" => "educations#index"
 
   get "/experiences" => "experiences#index"
@@ -13,4 +18,5 @@ Rails.application.routes.draw do
   get "/skills" => "skills#index"
 
   get "/capstones" => "capstones#index"
+
 end
