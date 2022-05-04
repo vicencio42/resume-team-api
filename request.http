@@ -1,0 +1,7 @@
+### Student Index
+GET http://localhost:3000/students
+
+### Student Show
+GET http://localhost:3000/students/1
+
+### Student Create
