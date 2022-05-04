@@ -5,7 +5,7 @@ class SkillsController < ApplicationController
   end
 
   def show
-    skills = Skills.find_by(id: params["id"])
+    skills = Skill.find_by(id: params["id"])
     render json: skills
   end
 
