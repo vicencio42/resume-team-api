@@ -20,13 +20,13 @@ class EducationsController < ApplicationController
   end
 
   def show
-    id: params[:id]
+    id = params[:id]
     education = Education.find_by(id: id)
     render json: education
   end
 
   def update
-    id: params[:id]
+    id = params[:id]
     education = Education.find_by(id: id)
 
     education.start_date = params[:start_date] || education.start_date
@@ -43,7 +43,7 @@ class EducationsController < ApplicationController
   end
 
   def destroy
-    id: params[:id]
+    id = params[:id]
     education = Education.find_by(id: id)
     education.destroy
 
